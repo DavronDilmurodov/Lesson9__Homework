@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <div class="2xl:container p-3 mx-auto">
+      <h2 class="text-center text-black text-xl font-medium my-10">
+        Card maker
+      </h2>
+      <form
+        class="flex mb-6 justify-center items-center gap-x-72 flex-wrap gap-y-6"
+      >
+        <input
+          class="form__bg-input text-black placeholder:text-black bg-gray-200 px-3 py-1 rounded-md"
+          type="text"
+          placeholder="Background color"
+        />
+        <input
+          class="form__color-input text-black placeholder:text-black bg-gray-200 px-3 py-1 rounded-md"
+          type="text"
+          placeholder="Color"
+        />
+        <input
+          class="form__p-input text-black placeholder:text-black bg-gray-200 px-3 py-1 rounded-md"
+          type="text"
+          placeholder="Padding"
+        />
+        <input
+          class="form__borrad-input text-black placeholder:text-black bg-gray-200 px-3 py-1 rounded-md"
+          type="text"
+          placeholder="Border radius"
+        />
+        <input
+          class="form__borcol-input text-black placeholder:text-black bg-gray-200 px-3 py-1 rounded-md"
+          type="text"
+          placeholder="Border color"
+        />
+        <input
+          class="form__fs-input text-black placeholder:text-black bg-gray-200 px-3 py-1 rounded-md"
+          type="text"
+          placeholder="Font size"
+        />
+      </form>
+      <button
+        class="btn bg-blue-600 text-white rounded-md px-8 py-2 mx-auto block mb-20"
+      >
+        Save
+      </button>
+      <div
+        class="card max-w-xs text-[18px] p-[10px] border-black border-2 rounded-[4px] mx-auto"
+      >
+        <p class="card__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div class="result max-w-md"></div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
